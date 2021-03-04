@@ -1,0 +1,136 @@
+
+*{margin: 0px; padding= 10px;
+}
+
+body{
+	margin:0px;
+	background:url(imags/fundoA.jpg);
+	background-size:cover;
+	
+}
+
+#container{
+	width: 1024px;
+	height: 768px;
+	background-color: white;
+	margin: auto;
+	margin-top: 0px;
+	border:solid;
+}
+
+#head{
+	height: 130px;
+	background-color: #3fc1c9;
+	text-align: center;
+}
+
+#menu{
+	height:40px;
+	background-color: #364f6b;
+	align-items: center;
+	justify-content: center;
+}
+
+#Bpesquisa{ 
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	background-color: #3fc1c9;
+}
+
+#corpo{
+	height: 594px;
+	background-color: #364f6b;
+	justify-content: center;
+	text-align:center;
+	color: white;
+	text-decoration: bold;
+}
+
+#rodape{
+	height:44px;
+	background-color: #3fc1c9;
+}
+
+#imglogo{
+	width: 20%;
+	float: left;
+	margin-left: 10px;
+	margin-top: px;
+}
+
+#logoajuda{
+	width: 2%;
+	margin-left: 600px;
+	margin-top: 10;
+	
+}
+
+#logocesta{
+	width: 04%;
+	margin-left: 700px;	
+	margin-top:	20px;
+	
+}
+
+#perguntas{
+	width:600px;
+	height:400px;
+	border: solid;
+	margin: auto;
+	Margin-top: 40px;
+	
+}
+#perguntas h1 { color: white;}
+#perguntas li h3 { color: yellow;}
+#perguntas li a { text-decoration : none;}
+
+#rodape ul li{
+	display: inline;
+}
+
+#rodape ul li a{	
+	padding: 15px 70px;
+	display: inline-block;
+	text-transform: uppercase;
+	color: black;
+	font-weight: normal;
+	font-size: 12px;
+	text-decoration: none;
+	margin-left: 0px;
+	
+	
+}	
+
+#rodape ul li a:hover{
+	color: white;
+	
+}
+
+
+.inputAjuda { 
+				color: #ffffff;
+				display: flex;
+				flex-direction: row;
+			}
+.btnSubmit {
+				background-color: rgb(7, 55, 99);
+				color: white;
+				border: none;
+				cursor: pointer;
+				padding: 2px 12px 3px 12px;
+				text-decoration: none;
+}
+
+.info a h5 { 
+    color: white;
+	text-align: center;
+	margin-top: 5px;
+	
+}
+
+.info a { 
+	text-decoration: none;}
+.info a h5:hover{
+	color: #3fc1c9;
+}	

@@ -1,0 +1,197 @@
+
+*{margin: 0px; padding= 10px;
+}
+
+body{
+	margin:0px;
+	background:url(imags/fundoA.jpg);
+	background-size:cover;
+	
+}
+
+#container{
+	width: 1024px;
+	height: 768px;
+	background-color: white;
+	margin: auto;
+	margin-top: 0px;
+	border:none;
+}
+
+#head{
+	height: 130px;
+	background-color: #3fc1c9;
+	text-align: center;
+}
+
+#menu{
+	height:40px;
+	background-color: #364f6b;
+	align-items: center;
+	justify-content: center;
+}
+
+#Bpesquisa{ 
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	background-color: #3fc1c9;
+}
+
+#corpo{
+	height: 510px;
+	background-color: #364f6b;
+	justify-content: center;
+	
+}
+
+#rodape{
+	height:44px;
+	background-color: #3fc1c9;
+}
+
+#imglogo{
+	width: 20%;
+	float: left;
+	margin-left: 10px;
+	margin-top: px;
+}
+
+#logoajuda{
+	width: 2%;
+	margin-left: 600px;
+	margin-top: 10;
+	
+}
+
+#logocesta{
+	width: 04%;
+	margin-left: 700px;	
+	margin-top:	20px;
+	
+}
+
+#menu ul{
+	list-style: none;
+	
+	
+}
+
+#menu ul li{
+	display: inline;
+}
+
+#menu ul li a{	
+	padding: 10px 35px;
+	display: inline-block;
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	font-size: 12px;
+	text-decoration: none;
+	margin-left: 0px;
+	
+	
+}	
+
+#menu ul li a:hover{
+	color: #3fc1c9;
+}
+#menu ul{
+	list-style: none;
+	
+	
+}
+
+#rodape ul li{
+	display: inline;
+}
+
+#rodape ul li a{	
+	padding: 15px 70px;
+	display: inline-block;
+	text-transform: uppercase;
+	color: black;
+	font-weight: normal;
+	font-size: 12px;
+	text-decoration: none;
+	margin-left: 0px;
+	
+	
+}	
+
+#rodape ul li a:hover{
+	color: white;
+	
+}
+
+.titulos{
+	color: orange; 
+	text-align: auto;
+	margin-left: 50px
+ }
+
+.passageiroLabel { 
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: center;
+			}
+.inputPassageiros { 
+				color: #ffffff;
+				display: flex;
+				flex-direction: row;
+			}
+.btnSubmit {
+				background-color: rgb(7, 55, 99);
+				color: white;
+				border: none;
+				cursor: pointer;
+				padding: 2px 12px 3px 12px;
+				text-decoration: none;
+}
+.formPacoteContainer {
+    background-color: #364f6b;
+    padding: 22px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.formPacoteContainer>input {
+    margin: 8px;
+}
+
+.pacote {
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin: 45px;
+    width: 160px;
+    height: 150px;
+    background-color: orange;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.pacote img {
+    border-radius: 5px 5px 0 0;
+    width: 160px;
+    height: 120px;
+}
+
+.info a h5 { 
+    color: white;
+	text-align: center;
+	margin-top: 5px;
+	
+}
+
+.info a { 
+	text-decoration: none;}
+.info a h5:hover{
+	color: #3fc1c9;
+}	
+	
